@@ -1,9 +1,9 @@
-package com.example.url
+package com.example.task
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = ["com.example.task"])
 class UrlShortenerServiceApplication
 
 fun main(args: Array<String>) {
